@@ -2,9 +2,12 @@ language: python
 python:
   - "3.8"
 
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y libssl-dev
+
 install:
   - pip install -r requirements.txt
 
 script:
-  - python ./main.py # Replace `your_script_name.py` with the actual name of your Python file
-
+  - python main.py
