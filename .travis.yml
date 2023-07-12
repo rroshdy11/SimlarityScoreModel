@@ -12,3 +12,9 @@ install:
 
 script:
   - python main.py
+
+after_success:
+  - gunicorn app:app -c gunicorn.conf.py
+
+deploy:
+  # Add your deployment configuration here if needed
