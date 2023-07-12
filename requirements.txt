@@ -1,4 +1,4 @@
 flask==2.3.2
 scikit-learn==0.24.2
 nltk
-sentence_transformers
+sentence-transformers==2.0.0
