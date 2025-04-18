@@ -145,15 +145,21 @@ docker run -p 5000:5000 similarity-api
 
 ## 🗂 Project Structure
 
-```
-semantic-similarity-app/
-├── app.py
-├── Dockerfile
-├── README.md
-├── instructor_classroom.png
-└── preprocessing_infographic.png
-```
+This is the directory structure for the project:
 
+```
+| **File/Directory**                | **Description**                                          |
+|-----------------------------------|----------------------------------------------------------|
+| `.travis.yml`                     | Configuration file for Travis CI                         |
+| `Dockerfile`                      | Docker configuration file to build the application       |
+| `README.md`                       | Project overview and documentation                       |
+| `gunicorn.conf.py`                | Configuration file for Gunicorn server                   |
+| `instructor_classroom.png`        | Image related to the instructor classroom                |
+| `main.py`                          | Main Python script that runs the application             |
+| `preprocessing_infographic.png`   | Image showing preprocessing steps or infographic        |
+| `requirements.txt`                | List of Python dependencies needed for the project       |
+
+```
 ---
 
 ## 🤝 Built With
